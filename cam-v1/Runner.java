@@ -40,6 +40,14 @@ v1.shocked();
                   v1.sick();
                    takeABeat(1000);
                    v1.verysick();
+                    takeABeat(10000);
+                    v1.die();
+                     takeABeat(1000);
+                     v1.skeleton();
+                      takeABeat(1000);
+                      v1.grave();
+                       takeABeat(1000);
+                       v1.angel();
                }
 
 
