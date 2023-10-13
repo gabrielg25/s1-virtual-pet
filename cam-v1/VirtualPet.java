@@ -43,6 +43,7 @@ public class VirtualPet {
     }
     public void angel(){
         face.setImage("angel");
+        face.setMessage("GAME OVER");
     }
     public void shocked(){
         face.setImage("shocked");
@@ -70,6 +71,13 @@ public class VirtualPet {
     }
     public void verysick(){
         face.setImage("verysick");
+    }
+    public void surprised(){
+        face.setImage("surprised");
+        face.setMessage("Wow that's my favorite food!");
+    }
+    public void depressed(){
+        face.setImage("depressed");
     }
 
 } // end Virtual Pet
