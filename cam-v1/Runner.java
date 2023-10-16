@@ -89,7 +89,7 @@ public class Runner {
 
         }
         else if(t.equals("Why what did you do")){
-            String f = getOption("I accidentally ate your sister", new Object[]{"How dare you", "Okey dokey", "Good ridance"});
+            String f = getOption("I accidentally ate your sister", new Object[]{"How dare you", "Okie dokie", "Good ridance"});
             if(f.equals("How dare you")){
                 v1.depressed();
                 takeABeat(10000);
@@ -100,7 +100,7 @@ public class Runner {
                 v1.grave();
                 takeABeat(10000);
                 v1.angel();
-            }else if(f.equals("Okey dokey")){
+            }else if(f.equals("Okie dokie")){
                    String g = getOption("Are you not mad", new Object[]{"Not really", "I could never be mad at you"});
                    if(g.equals("Not really")){
                     v1.shocked();
