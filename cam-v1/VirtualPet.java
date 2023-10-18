@@ -22,7 +22,7 @@ public class VirtualPet {
             hunger = 0;
         }
         face.setMessage("Yum, thanks");
-        face.setImage("normal");
+        face.setImage("normal2");
     }
     
     public void exercise() {
@@ -36,48 +36,48 @@ public class VirtualPet {
         face.setImage("asleep");
     }
     public void die(){
-        face.setImage("dead");
+        face.setImage("dead2");
     }
     public void sad(){
-        face.setImage("sad");
+        face.setImage("sad2");
     }
     public void angel(){
-        face.setImage("angel");
+        face.setImage("angel2");
         face.setMessage("GAME OVER");
     }
     public void shocked(){
-        face.setImage("shocked");
+        face.setImage("shocked2");
     }
     public void skeleton(){
-        face.setImage("skeleton");
+        face.setImage("skeleton2");
     }
     public void grave(){
-        face.setImage("pushingdaisies");
+        face.setImage("grave");
     }
     public void joyful(){
-        face.setImage("joyful");
+        face.setImage("happy2");
     }
     public void love(){
-        face.setImage("love");
+        face.setImage("love2");
     }
     public void hungry(){
-        face.setImage("hungry");
+        face.setImage("hungry2");
     }
     public void starving(){
-        face.setImage("starving");
+        face.setImage("veryhungry2");
     }
     public void sick(){
-        face.setImage("sick");
+        face.setImage("sick2");
     }
     public void verysick(){
-        face.setImage("verysick");
+        face.setImage("sick2");
     }
     public void surprised(){
-        face.setImage("surprised");
+        face.setImage("shocked2");
         face.setMessage("Wow that's my favorite food!");
     }
     public void depressed(){
-        face.setImage("depressed");
+        face.setImage("verysad2");
     }
 
 } // end Virtual Pet
